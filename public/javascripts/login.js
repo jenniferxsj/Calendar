@@ -19,6 +19,7 @@ async function userLogin(event) {
     body: JSON.stringify(data),
   };
 
+  // So you are using the html alert to pop up wrong messages? That's a good method!
   const rawData = await fetch("/login", options);
   if (rawData.status === 200) {
     window.location.assign("/dashboard");
