@@ -14,6 +14,7 @@ const auth = (req, res, next) => {
 /*****************
 GET ROUTES 
 ******************/
+// I like how you segmented different parts of your codes. It's clear.
 
 /* GET HOME PAGE */
 router.get("/", function (req, res) {
@@ -103,6 +104,7 @@ router.get("/userData", auth, async (req, res) => {
 });
 
 /* CHECK SESSION */ //WORK IN PROGRESS TO UPDATE NAV BAR ON SESSION
+// Don't remember to delete comments like this!
 
 /*****************
 END GET ROUTES 
