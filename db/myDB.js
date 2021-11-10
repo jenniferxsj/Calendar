@@ -190,6 +190,9 @@ async function deleteWorkout(id) {
   }
 }
 
+// Xuejia: I think it may be better if you can write all these functions into
+//         one function. Then you can export one function instead. It is also
+//         better for someone who would like to add new features.
 module.exports = {
   registerUser,
   userLogin,
